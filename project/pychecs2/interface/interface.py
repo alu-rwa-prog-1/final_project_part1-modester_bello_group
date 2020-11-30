@@ -329,11 +329,11 @@ class Window(Tk):
         # Added an information label.
         self.info = Label(self)
         self.info.grid()
-        self.info["foreground"] = "white"
+        self.info["foreground"] = "black"
         self.info["text"] = "You can start !"
         self.msg_active_player = Label(self)
         self.msg_active_player.grid()
-        self.msg_active_player["foreground"] = "white"
+        self.msg_active_player["foreground"] = "black"
         self.msg_active_player["text"] = (
             "It's the turn of : " + self.game.active_player.upper()
         )
@@ -499,7 +499,7 @@ class Window(Tk):
                 """
                 self.canvas_board.selected_position = None
                 self.canvas_board.refresh()
-                self.info["foreground"] = "white"
+                self.info["foreground"] = "black"
                 self.info["text"] = "The piece has been moved"
                 if self.game.game_over():
                     self.message_timer.destroy()

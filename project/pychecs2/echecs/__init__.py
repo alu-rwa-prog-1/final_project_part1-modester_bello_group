@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
-"""Lorsqu'un dossier contient un module __init__.py, c'est que nous le considérons comme
-un "package", qui est une collection de modules regroupés dans un même projet.
+"""
+When a folder contains a __init__.py module, we consider it as
+a "package", which is a collection of modules grouped together in the same project.
 
-Ce module spécial permet de faire:
+This special module makes it possible to do:
 from pychecs.piece import ...
 
-Aucun code n'est nécessaire dans ce module spécial, sa présence est suffisante.
+No code is necessary in this special module, its presence is sufficient.
 
 """
