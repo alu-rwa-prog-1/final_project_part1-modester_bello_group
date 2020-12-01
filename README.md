@@ -34,9 +34,9 @@ python3 main.py
 
 If your system does not read the UNICODES, you can set the UNICODE global variable to False and run it with the standard characters.
 ## Test
-We have used pytest to test the program; Pytest is a unit testing python framework; it helps to write readable and scalable testing scripts for python programs. <br/>
+We have used pytest to test the program; unittest is a unit testing python framework; it helps to write readable and scalable testing scripts for python programs. <br/>
 To test this program, run the command
 ```
-pytest
+unittest
 ```
 inside the project's root directory with your terminal/command prompt
